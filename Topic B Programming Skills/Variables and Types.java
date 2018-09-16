@@ -1,4 +1,3 @@
-package com.RahulTailor.ics4c0.
 
 public class VariablesAndTypes {
 
