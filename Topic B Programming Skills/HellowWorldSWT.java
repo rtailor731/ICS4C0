@@ -11,7 +11,7 @@ import org.eclipse.swt.widgets.Shell;
 /*
  * This example builds on HelloWorld2 and demonstrates how to resize the Label when the Shell resizes using a Layout. 
  */ 
-public class HelloWorld4 { 
+public class HelloWorld2 { 
  private static ResourceBundle resHello = ResourceBundle.getBundle("examples_helloworld"); 
  
  public static void main(String[] args) { 
