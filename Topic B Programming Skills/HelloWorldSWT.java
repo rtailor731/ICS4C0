@@ -1,18 +1,11 @@
-package org.eclipse.swt.examples.helloworld; 
- 
-import java.util.ResourceBundle; 
- 
-import org.eclipse.swt.SWT; 
-import org.eclipse.swt.layout.FillLayout; 
-import org.eclipse.swt.widgets.Display; 
-import org.eclipse.swt.widgets.Label; 
-import org.eclipse.swt.widgets.Shell; 
- 
-/*
- * This example builds on HelloWorld2 and demonstrates how to resize the Label when the Shell resizes using a Layout. 
- */ 
-public class HelloWorld2 { 
- private static ResourceBundle resHello = ResourceBundle.getBundle("examples_helloworld"); 
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.Shell;
+import org.eclipse.swt.widgets.Text;
+
+public class SWTHelloWorld {
+
+private static ResourceBundle resHello = ResourceBundle.getBundle("examples_helloworld"); 
  
  public static void main(String[] args) { 
   Display display = new Display(); 
